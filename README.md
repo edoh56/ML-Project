@@ -1,0 +1,3 @@
+This project implements linear regression, logistic regression, and a one-hidden-layer neural network from scratch in NumPy, deriving the cost functions and gradients by hand rather than using scikit-learn. The linear regression section fits a small dataset by gradient descent and explores how the learning rate and iteration count affect convergence. The logistic regression and neural network sections tackle a non-linearly-separable classification problem, showing how adding a hidden layer improves accuracy from 47% to 90%.
+
+The final section moves to polynomial regression, using the Bayesian information criterion (BIC) to select the polynomial degree that best balances fit against model complexity, correctly identifying the true underlying degree of the data.
